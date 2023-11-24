@@ -9,3 +9,6 @@ background-size: 100% 100%;
 font-weight: 700;
 color: rgba(255, 255, 255, 0.758);
 }
+div + p {
+
+}
