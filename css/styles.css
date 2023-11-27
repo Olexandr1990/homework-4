@@ -1,3 +1,4 @@
+@import url('reset.css');
 .container {
     width: 1200px;
     margin: auto;
@@ -11,7 +12,7 @@
 }
 
 .box {
-    background-image: url(img/fon.jpeg);
+    background-image: url(../img/img/fon.jpeg);
     text-align: center;
     font-size: 20px;
     background-repeat: no-repeat;
@@ -34,11 +35,13 @@
     margin: 0 auto;
     font-size: 20px;
     font-weight: 700;
-    background-image: url('../pages/images/vol.jpg');
+    background-image: url('../img/images/vol.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     color: rgba(110, 247, 5, 0.909);
+    padding: 20px;
+    margin: 0 0 20px;
 }
 
 .bmw {
@@ -48,10 +51,12 @@
     color: rgb(202, 203, 204);
     font-size: 20px;
     font-weight: 700;
-    background-image: url('../pages/images/bmw_fon.jpg');
+    background-image: url('../img/images/bmw_fon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 20px;
+    margin: 0 0 20px;
 }
 
 .toyota {
@@ -61,10 +66,12 @@
     color: rgba(0, 0, 0, 0.685);
     font-size: 20px;
     font-weight: 700;
-    background-image: url('../pages/images/hd-toyota.jpg');
+    background-image: url('../img/images/hd-toyota.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 20px;
+    margin: 0 0 20px;
 }
 
 .ford {
@@ -74,10 +81,12 @@
     color: rgb(202, 203, 204);
     font-size: 20px;
     font-weight: 700;
-    background-image: url('../pages/images/For.jpg');
+    background-image: url('../img/images/For.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 20px;
+    margin: 0 0 20px;
 }
 
 .mersedes {
@@ -87,10 +96,12 @@
     color: rgb(202, 203, 204);
     font-size: 20px;
     font-weight: 700;
-    background-image: url('images/Mercedes_Benz_fon.jpg');
+    background-image: url('../img/images/Mercedes_Benz_fon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 20px;
+    margin: 0 0 20px;
 }
 
 .kia {
@@ -100,8 +111,10 @@
     color: rgb(202, 203, 204);
     font-size: 20px;
     font-weight: 700;
-    background-image: url('../pages/images/2022\ Kia_fon.jpg');
+    background-image: url('../img/images/2022\ Kia_fon.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding: 20px;
+    margin: 0 0 20px;
 }
