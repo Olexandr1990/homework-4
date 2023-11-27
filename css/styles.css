@@ -1,23 +1,107 @@
 .container {
-width: 1200px;
-margin: auto;
+    width: 1200px;
+    margin: auto;
 
+    table,
+    th,
+    td {
+        border-collapse: separate;
+        border: 2px solid black;
+    }
 }
+
 .box {
-background-image: url(img/fon.jpeg);
-text-align: center;
-font-size: 20px;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 100%;
-font-weight: 700;
-color: rgba(255, 255, 255, 0.758);
+    background-image: url(img/fon.jpeg);
+    text-align: center;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.758);
 }
-.header, .body {
+
+.header,
+.body {
     padding: 20px;
     margin: 0 0 20px;
     outline: 5px solid blue;
 }
-div {
 
+.volkswagen {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('../pages/images/vol.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: rgba(110, 247, 5, 0.909);
+}
+
+.bmw {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(202, 203, 204);
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('../pages/images/bmw_fon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.toyota {
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    color: rgba(0, 0, 0, 0.685);
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('../pages/images/hd-toyota.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.ford {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(202, 203, 204);
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('../pages/images/For.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.mersedes {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(202, 203, 204);
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('images/Mercedes_Benz_fon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.kia {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(202, 203, 204);
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('../pages/images/2022\ Kia_fon.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
